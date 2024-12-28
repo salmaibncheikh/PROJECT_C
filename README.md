@@ -119,9 +119,49 @@ typedef struct TreeNode {
     struct TreeNode *right;
 } TreeNode; 
 ```
-###Code Organization
-Main Function
+# Code Organization
+
+## Main Function
 The main function initializes the program, displays a menu for user interaction, and executes functions based on user input.
+
+## Book Functions
+- **Add Book**: Adds a new book to the system.  
+- **Remove Book**: Deletes a book by ID.  
+- **Update Book**: Updates book details.  
+- **Search Book**: Searches for a book by ID or title.  
+- **Display Books**: Displays all books.  
+
+## User Functions
+- **Add User**: Adds a new user to the system.  
+- **Remove User**: Deletes a user by ID.  
+- **Update User**: Updates user details.  
+- **Search User**: Searches for a user by name or ID.  
+- **Display Users**: Displays all users.  
+
+## Stack Functions
+- **Push**: Adds an activity to the stack.  
+- **Pop**: Removes the most recent activity.  
+- **Display Stack**: Shows recent activities.  
+
+## Queue Functions
+- **Enqueue**: Adds a user request to the queue.  
+- **Dequeue**: Processes the next request in the queue.  
+- **Display Queue**: Shows all pending requests.  
+
+## BST (Binary Search Tree) Functions
+- **Insert Book**: Adds a book to the BST for efficient searching.  
+- **Search Book**: Searches for a book by title in the BST.  
+- **Display BST**: Displays all books in sorted order.  
+
+---
+
+## How to Use
+
+### Steps:
+1. **Compile the Program**  
+   Run the following command:  
+   ```sh
+   gcc -o library_management library_management.c
 
 
 
