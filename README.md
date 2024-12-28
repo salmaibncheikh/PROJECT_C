@@ -81,12 +81,12 @@ typedef struct Book {
 
 ### User Structure
 Maintains user data in a linked list:
-```c
 typedef struct User {
     int id;
     char name[50];
     char contact[50];
     struct User *next;
 } User;
+
 
 
