@@ -109,6 +109,19 @@ typedef struct QueueNode {
     struct QueueNode *next;
 } QueueNode;
 ```
+### Binary Search Tree (BST)
+Organizes books for efficient searches:
+
+```c
+typedef struct TreeNode {
+    Book *book;
+    struct TreeNode *left;
+    struct TreeNode *right;
+} TreeNode; 
+```
+###Code Organization
+Main Function
+The main function initializes the program, displays a menu for user interaction, and executes functions based on user input.
 
 
 
