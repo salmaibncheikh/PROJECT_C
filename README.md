@@ -78,5 +78,12 @@ typedef struct Book {
     int available; // 1 = available, 0 = borrowed
     struct Book *next;
 } Book;
-
+typedef struct User {
+    int id;
+    char name[50];
+    char contact[50];
+    struct User *next;
+} User;
+User Structure
+Maintains user data in a linked list:
 
