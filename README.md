@@ -99,6 +99,18 @@ typedef struct StackNode {
     struct StackNode *next;
 } StackNode;
 ```
+### Queue for Requests
+Processes user requests in FIFO order:
+
+```c
+typedef struct QueueNode {
+    int userId;
+    int bookId;
+    struct QueueNode *next;
+} QueueNode;
+```
+
+
 
 
 
