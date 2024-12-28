@@ -32,7 +32,7 @@ This project is a comprehensive Library Management System built in C. It simplif
 - **Efficient Searches**: Utilize a BST for fast book lookups by title.
 - **Persistent Data**: Save and load books and users from text files.
 - <p align="center">
-  <img src="https://github.com/user-attachments/assets/27569a83-34d5-4966-84da-e43d11d62c38" alt="Library Management System Architecture" style="width: 600px; height: auto;">
+  <img src="https://github.com/user-attachments/assets/32eae2dd-b8db-4131-9e6b-a4b6c38a681d" alt="Library Management System Architecture" style="width: 600px; height: auto;">
 </p>
 
 ---
