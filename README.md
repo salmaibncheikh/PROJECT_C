@@ -91,6 +91,17 @@ typedef struct User {
     struct User *next;
 } User;
 ```
+### Stack for Recent Activities
+Tracks recent actions like book borrow and return:
+```c
+typedef struct StackNode {
+    int bookId;
+    struct StackNode *next;
+} StackNode;
+```
+
+
+
 
 
 
