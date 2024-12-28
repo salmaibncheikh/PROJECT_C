@@ -155,13 +155,10 @@ The main function initializes the program, displays a menu for user interaction,
 
 ---
 
-## How to Use
+## File Overview
 
-### Steps:
-1. **Compile the Program**  
-   Run the following command:  
-   ```sh
-   gcc -o library_management library_management.c
+- **books.txt**: Stores book information persistently.  
+- **users.txt**: Stores user information persistently.
 
 
 
