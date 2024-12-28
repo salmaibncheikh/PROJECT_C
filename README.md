@@ -31,6 +31,9 @@ This project is a comprehensive Library Management System built in C. It simplif
 - **Request Queue**: Process requests in a first-in, first-out (FIFO) manner using a queue.
 - **Efficient Searches**: Utilize a BST for fast book lookups by title.
 - **Persistent Data**: Save and load books and users from text files.
+- <p align="center">
+  <img src="https://github.com/user-attachments/assets/27569a83-34d5-4966-84da-e43d11d62c38" alt="Library Management System Architecture" style="width: 600px; height: auto;">
+</p>
 
 ---
 
