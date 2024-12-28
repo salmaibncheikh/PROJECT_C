@@ -82,7 +82,6 @@ typedef struct Book {
 ### User Structure
 Maintains user data in a linked list:
 
-### User
 ```c
 typedef struct User {
     int id;
